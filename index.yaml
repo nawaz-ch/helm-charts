@@ -3,7 +3,7 @@ entries:
   retail-store-sample-cart-chart:
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2026-05-02T18:30:19.131167703+05:30"
+    created: "2026-05-02T18:32:57.918308646+05:30"
     description: Carts Microservice - Modified Helm chart for AWS EKS course (based
       on aws-containers/retail-store-sample-app)
     digest: 27f6e1a57060c13b7773d5b039fb3d3daa211e94ebd6ae7e5f24d2de6f2f6983
@@ -17,7 +17,7 @@ entries:
   retail-store-sample-catalog-chart:
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2026-05-02T18:30:19.132734001+05:30"
+    created: "2026-05-02T18:32:57.919013447+05:30"
     description: Catalog Microservice - Modified Helm chart for AWS EKS course (based
       on aws-containers/retail-store-sample-app)
     digest: 628411cddda74a561a2ed4c8e44fcaca8af4d8547c7c5d84606ed295e1a354e9
@@ -28,10 +28,24 @@ entries:
     urls:
     - https://nawaz-ch.github.io/helm-charts/retail-store-sample-catalog-chart-2.0.0.tgz
     version: 2.0.0
+  retail-store-sample-checkout-chart:
+  - apiVersion: v2
+    appVersion: 1.3.0
+    created: "2026-05-02T18:32:57.919600242+05:30"
+    description: Checkout Microservice - Modified Helm chart for AWS EKS course (based
+      on aws-containers/retail-store-sample-app)
+    digest: b4d109ba5e648fd93e2718421fe343b7b10515afe20a12e441a3c17c74f52632
+    name: retail-store-sample-checkout-chart
+    sources:
+    - https://github.com/aws-containers/retail-store-sample-app
+    type: application
+    urls:
+    - https://nawaz-ch.github.io/helm-charts/retail-store-sample-checkout-chart-1.0.0.tgz
+    version: 1.0.0
   retail-store-sample-orders-chart:
   - apiVersion: v2
     appVersion: 1.3.0
-    created: "2026-05-02T18:30:19.133464877+05:30"
+    created: "2026-05-02T18:32:57.920466474+05:30"
     description: Orders Microservice - Modified Helm chart for AWS EKS course (based
       on aws-containers/retail-store-sample-app)
     digest: 35a766efc813552ceace1d4a7571dd00a1bcaa5aed7201b50db49261097c050b
@@ -42,4 +56,4 @@ entries:
     urls:
     - https://nawaz-ch.github.io/helm-charts/retail-store-sample-orders-chart-2.0.0.tgz
     version: 2.0.0
-generated: "2026-05-02T18:30:19.130508155+05:30"
+generated: "2026-05-02T18:32:57.917394443+05:30"
